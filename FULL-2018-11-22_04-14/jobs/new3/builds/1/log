@@ -1,0 +1,33 @@
+Started by user [8mha:////4Ajr3gx9to/hlT8GmTIo/JTxMJ+4LY3gGneKU1klbqaiAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Building in workspace /var/lib/jenkins/workspace/new3
+Cloning the remote Git repository
+Cloning repository https://github.com/srini-hithub/puppet.git
+ > git init /var/lib/jenkins/workspace/new3 # timeout=10
+Fetching upstream changes from https://github.com/srini-hithub/puppet.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/srini-hithub/puppet.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/srini-hithub/puppet.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/srini-hithub/puppet.git # timeout=10
+Fetching upstream changes from https://github.com/srini-hithub/puppet.git
+ > git fetch --tags --progress https://github.com/srini-hithub/puppet.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bb36ed47df9e2b1c42857970a74bccc6b150dd62 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bb36ed47df9e2b1c42857970a74bccc6b150dd62
+Commit message: "new_file uploaded"
+First time build. Skipping changelog.
+[new3] $ /bin/sh -xe /tmp/jenkins2424840024464357690.sh
++ cd /var/tmp
++ git clone https://github.com/srini-hithub/puppet.git
+Cloning into 'puppet'...
++ ls -al
+total 4
+drwxrwxrwt.  5 root    root     176 Nov 21 03:52 .
+drwxr-xr-x. 20 root    root     278 Nov 13 04:16 ..
+drwxr-xr-x.  8 jenkins jenkins 4096 Nov 21 03:52 puppet
+drwx------.  3 root    root      17 Nov 21 02:59 systemd-private-a3f775f0580e48f6a67fdd4bed2b46ec-chronyd.service-IOn0gK
+drwx------.  3 root    root      17 Nov 21 02:59 systemd-private-a3f775f0580e48f6a67fdd4bed2b46ec-httpd.service-mdGbEw
++ rm -rf puppet
+Finished: SUCCESS
